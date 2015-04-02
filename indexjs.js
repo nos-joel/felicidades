@@ -1,5 +1,0 @@
-function fname (){
-
-
-alert("dafuck!");
-}
