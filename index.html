@@ -4,32 +4,29 @@
 
 <head>
 
-<script src="fnfile.js"></script>
+
+<link rel="stylesheet" href="css/reset.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+
 
 <style>
   
 body{
 background-color:grey;
+    font-family: 'Open Sans', sans-serif;
 }
-
 #header{
   
 background-color:black;
+color:white;padding-bottom:30px;
 
-height:20%;
-width:100%;
-color:white;
-position: fixed;
-top:0px;
-left:0px;
 }
-
-
 #header-text{
 text-align: center;
 }
-
-
 </style>
 
 </head>
@@ -42,7 +39,29 @@ text-align: center;
 
 </div>
 
-<h1 style="text-align:center;margin-top:50%;"><i>Come Soon!</i></h1>
+    <h1 style="margin-bottom:40px;">Erika nos va a rajar por la mitad</h1>
+    <p style="margin-bottom:20px;">Que hacer ante una tormenta?</p>
+    <ul>
+        <li>-Comprar salchichas</li>
+        <li>-Comprar Lays Baked(Tiene que ser las Baked, otras no!)</li>
+        <li>-DVD portatil con Jurassic Park 1</li>
+        <li>-Estufita de gas</li>
+        <li>-Greka y cafe</li>
+        <li>-Comprar salchichas</li>
+        <li>-Condones</li>
+    </ul>
+    
+    
+    <h1><a href="#" id="link">Quieres ver la trayectoria de Erika? Press here</a></h1>
+    <img id="img" style="display:none;"src="http://publicradio1.wpengine.netdna-cdn.com/updraft/files/2015/08/825-Erika-rainbow.gif">
+    <script>
+    $("#link").click(function(){
+       $("#img").css({display:'block'}); 
+    });
+    
+    
+    
+    </script>
 </body>
 
 </html>
