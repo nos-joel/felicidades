@@ -1,6 +1,6 @@
-body{font-family: carsfont; color: white; font-size: 30px; background-image:url("https://ebin.files.wordpress.com/2007/03/wallpaper-cf2-1280x1024.png"); }
+body{font-family: carsfont; color: white; font-size: 24px; background-image:url("https://ebin.files.wordpress.com/2007/03/wallpaper-cf2-1280x1024.png"); }
 #mainlogocontainer {position: relative; text-align:center;/*top:100px; left:350px;*/}
-.font{ font-family: carsfont; color:green;}
+.font{ font-family: carsfont; color:white;}
 .cars { position: absolute;font-family: carsfont; left: 38%; top: 37%; font-size: 400%; color: white; /*display: inline-block; position: absolute; z-index: 20; */} 
 #image{ max-width:100%;/* height:auto; position:relative;*/} 
 #luigiimg{border:3px solid grey; max-width:100%; margin-left: auto; margin-right: auto; display: block; width: 350px; height: 300px; border-radius:8px;}
