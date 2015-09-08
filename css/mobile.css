@@ -1,4 +1,4 @@
-body{font-family: carsfont; color: white; font-size: 20px; background-image:url("https://ebin.files.wordpress.com/2007/03/wallpaper-cf2-1280x1024.png"); }
+body{font-family: carsfont; color: white; font-size: 24px; background-image:url("https://ebin.files.wordpress.com/2007/03/wallpaper-cf2-1280x1024.png"); }
 #mainlogocontainer {position: relative; text-align:center;/*top:100px; left:350px;*/}
 .font{ font-family: carsfont; color:white;}
 .cars { position: absolute;font-family: carsfont; left: 38%; top: 37%; font-size: 400%; color: white; /*display: inline-block; position: absolute; z-index: 20; */} 
